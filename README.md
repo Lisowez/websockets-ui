@@ -4,7 +4,8 @@
 
 ## Installation
 1. Clone/download repo
-2. `npm install`
+2. `dit checkout develop`
+3. `npm install`
 
 ## Usage
 **Start webSocket server**
