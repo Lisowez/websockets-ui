@@ -7,6 +7,6 @@
 2. `npm install`
 
 ## Usage
-**Start webSocet server**
+**Start webSocket server**
 
 `npm run start:ws`
