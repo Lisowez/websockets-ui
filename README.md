@@ -4,7 +4,7 @@
 
 ## Installation
 1. Clone/download repo
-2. `dit checkout develop`
+2. `git checkout develop`
 3. `npm install`
 
 ## Usage
