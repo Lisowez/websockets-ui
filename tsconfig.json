@@ -11,7 +11,5 @@
     "baseUrl": "./",
     "paths": {}
   },
-  "include": [
-    "**/*.ts" 
-, "src/ws/index.js"  ]
+  "include": ["**/*.ts", "src/ws/index.js", "src/ws/database/database.js"]
 }
