@@ -4,28 +4,27 @@
 
 ## Installation
 1. Clone/download repo
-2. `npm install`
+2. `git checkout develop`
+3. `npm install`
 
 ## Usage
-**Development**
+**Start webSocket server**
 
-`npm run start:dev`
+`npm run start:ws`
 
-* App served @ `http://localhost:8181` with nodemon
+## Basic Scope
 
-**Production**
-
-`npm run start`
-
-* App served @ `http://localhost:8181` without nodemon
-
----
-
-**All commands**
-
-Command | Description
---- | ---
-`npm run start:dev` | App served @ `http://localhost:8181` with nodemon
-`npm run start` | App served @ `http://localhost:8181` without nodemon
-
-**Note**: replace `npm` with `yarn` in `package.json` if you use yarn.
+- Websocket
+    - **+6** Implemented workable websocket server
+    - **+6** Handle websocket clients connection/disconnection properly
+    - **+10** Websocket server message handler implemented properly
+    - **+10** Websocket server message sender implemented properly
+- User
+    - **+5** Create user with password in temprorary database
+    - **+5** User validation
+- Room
+    - **+6** Create game room
+    - **+6** Add user to game room
+## Advanced Scope
+- **+30** Task implemented on Typescript 
+- **+20** Codebase is separated (at least 4 modules)
